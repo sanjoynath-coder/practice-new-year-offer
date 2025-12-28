@@ -65,3 +65,38 @@ color: white;
     text-align: center;
     margin-top: 16px;
 }
+
+/* midnight party sryle start here */
+.midnight-container{
+    width:1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    margin-top:120px;
+}
+.midnight-container h3{
+    font-size: 64px;
+    font-weight:bold;
+    margin-left: 126px;
+    margin-top: 126px;
+}
+.midnight-container p{
+    font-size: 18px;;
+    font-weight:normal;
+    margin-top: 24px;
+    margin-left: 126px;
+    color:#FFFFFF;
+}
+.midnight-container span{
+    display: block;
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight:bold;
+    margin-left: 158px;
+    margin-top: 48px;
+}
