@@ -65,6 +65,9 @@ color: white;
     text-align: center;
     margin-top: 16px;
 }
+.off-section-img{
+    margin-top: 48px;
+}
 
 /* midnight party sryle start here */
 .midnight-container{
@@ -78,12 +81,13 @@ color: white;
     background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: overlay;
     margin-top:120px;
+    border-radius: 10px;
 }
 .midnight-container h3{
     font-size: 64px;
     font-weight:bold;
     margin-left: 126px;
-    margin-top: 126px;
+    padding-top:126px;
 }
 .midnight-container p{
     font-size: 18px;;
@@ -99,4 +103,37 @@ color: white;
     font-weight:bold;
     margin-left: 158px;
     margin-top: 48px;
+}
+
+/* place section style start here */
+.place-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:1320px;
+    height:400px;
+    /* border:1px solid red; */
+    margin:0 auto;
+    background-color:#FFECE9;
+    margin-top: 120px;
+    gap:10px;
+    border-radius: 10px;
+}
+.place-text{
+    font-size: 32px;
+    font-weight: 500;
+}
+.red{
+    color:red;
+}
+.place-button{
+    background-color:#FF0000;
+    padding:16px 32px;
+    margin-top: 48px;
+    border-radius: 10px;
+    color:wheat;
+    font-size: 20px;
+    font-weight: bold;
+    border:none;
 }
