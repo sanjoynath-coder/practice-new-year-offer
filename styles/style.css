@@ -128,7 +128,7 @@ color: white;
     color:red;
 }
 .place-button{
-    background-color:#FF0000;
+    /* background-color:#FF0000; */
     padding:16px 32px;
     margin-top: 48px;
     border-radius: 10px;
@@ -136,4 +136,67 @@ color: white;
     font-size: 20px;
     font-weight: bold;
     border:none;
+}
+
+/* new year offer section style start here */
+.new-year-container{
+    display: flex;
+    width: 1320px;
+    /* border:1px solid red; */
+    gap:10px;
+    margin:0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.new-year-child-container{
+    width:33%;
+    /* border:1px solid black; */
+}
+/* new year first child */
+.new-year-title{
+    color:red;
+    font-size: 24px;
+    font-weight:normal;
+    margin-top: 104px;
+    padding-left: 10px;
+}
+.new-year-subtitle{
+    font-size: 48px;
+    font-weight:bold;
+    margin-top: 16px;
+    padding-left: 10px;
+    
+}
+.new-year-description{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 22px;
+    color:rgba(7, 2, 17, 0.63);
+    padding-left: 10px;
+}
+/* new year second child */
+.new-year-second-child{
+    align-items: center;
+    border:20px solid red;
+    border-radius: 50%;
+    padding:20px;
+}
+/* new year third child style */
+.new-year-thied-child-title{
+    font-size: 48px;
+    font-weight: bold;
+    color:red;
+    margin-top: 112px;
+    margin-left: 50px;
+}
+.new-year-thied-child-sub-title{
+    font-size: 20px;
+    font-weight: normal;
+    color:rgba(7, 2, 17, 0.63);
+    margin-left: 50px;
+    margin-top: 16px;
+}
+.new-year-thied-child-img{
+    margin-left: 50px;
+    margin-top: 23px;
 }
